@@ -1,7 +1,7 @@
 #import libraries here
 
 def main():
-  a=input("Enter name of the month [ex. June]: "))
+  a=input("Enter name of the month [ex. June]: ")
   b=int(input("Enter the day [ex. 5]: "))
   if a=="April" or a=="May" or (a=="March" and 31>=b>=20) or (a=="June" and 1<=b<21):
     print(f"{a}{b} is in Spring")
